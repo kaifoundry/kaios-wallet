@@ -54,7 +54,10 @@ const App = () => {
         <Route path="/external-wallet" element={<ExternalWallet />} />
         <Route path="/check-pass" element={<CheckPass />} />
         <Route path="/wallet" element={<Wallet />} />
-        <Route path="/send-money" element={<SendMoney />} />
+        <Route
+          path="/send-money"
+          element={<SendMoney pblAdd={pblAddressData} />}
+        />
         <Route path="/receive-money" element={<ReceiveMoney />} />
         <Route path="/transactions" element={<Transactions />} />
         <Route path="/keywords" element={<Keywords />} />

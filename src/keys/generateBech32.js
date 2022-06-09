@@ -22,6 +22,7 @@ export default function generateBech32(words) {
   // console.log("Account 0, first receiving address = m/84'/0'/0'/0/0");
   // console.log("Prvkey:", account0.getPrivateKey(0));
   let pvtKey = account0.getPrivateKey(0);
+  // console.log(pvtKey, "pvtkey");
   let pblKey = account0.getPublicKey(0);
   let pblAddress = account0.getAddress(0);
   let xpub = account0.getAccountPublicKey();
