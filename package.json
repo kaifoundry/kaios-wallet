@@ -1,0 +1,59 @@
+{
+  "name": "bitcoin-wallet-kaios",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "base-64": "^1.0.0",
+    "bech32": "^2.0.0",
+    "binary": "^0.3.0",
+    "bip39": "^3.0.4",
+    "bip84": "^0.2.7",
+    "bitcore-lib": "^8.25.10",
+    "bootstrap": "^5.1.3",
+    "bs58check": "^2.1.2",
+    "create-hash": "^1.2.0",
+    "crypto-js": "^4.1.1",
+    "cryptr": "^6.0.2",
+    "elliptic": "^6.5.4",
+    "hdkey": "^2.0.1",
+    "js-base64": "^3.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.10.0",
+    "sha256": "^0.2.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
